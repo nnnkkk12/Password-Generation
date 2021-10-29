@@ -60,4 +60,4 @@ if not os.path.exists('password'):
 with open(f'password/{file_name}.txt', 'a') as password_string:
     password_string.write('{}\n'.format(f'{password}'))
 
-input('нажмите Enter, чтобы выйти.')
+input('Наажмите Enter, чтобы выйти.')
