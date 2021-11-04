@@ -50,7 +50,7 @@ print_count_array_symbols = Text.from_markup(
 
 print_count_variant = Text.from_markup(
     f'Количество возможных вариантов: {password.count_variant}',
-    style="bold yellow" 
+    style="bold green"
 )
 
 print_password = Text.from_markup(
